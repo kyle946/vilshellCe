@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>vilshell community edition | vilshell社区版</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,
+    body {
+      height: calc(100% - 0px);
+      width: calc(100% - 0px);
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      /* border: 1px solid #ccc; */
+    }
+
+    #root {
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      position: relative;
+    }
+
+    #tabar1 {
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #f1f1f1;
+      z-index: -1;
+    }
+
+    #tabar2 {
+      width: calc(100% - 50px);
+      -webkit-app-region: drag;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>

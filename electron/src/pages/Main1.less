@@ -1,0 +1,67 @@
+.MainPage1 {
+  background-color: #fff;
+  @color3: #e86b00;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #eee;
+  height: calc(100vh - 2px);
+  width: calc(100vw - 2px);
+  .empty1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .MainPage2{
+    background-color: #fff;
+    width: calc(100vw - 70px);
+    height: calc(100vh - 2px);
+  }
+  .Main1Menu{
+    width: 70px;
+    height: calc(100vh - 0px);
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #f1f1f1;
+    a {
+      user-select: none;
+      width: calc(100% - 16px);
+      height: 28px;
+      padding: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      &:hover {
+        background-color: #dff5ff;
+      }
+      span{
+        display: inline-block;
+        font-size: 12px;
+      }
+      i{
+        margin-right: 5px;
+        font-size: 18px;
+      }
+      .blue {
+        color: #027bb39a;
+      }
+      .red {
+        color: #f00;
+      }
+      .purple {
+        color: rgb(154, 3, 214);
+      }
+    }
+    .active{
+      background-color: #fff;
+      font-weight: bold;
+      color: #027bb3;
+      i{
+        font-weight: normal;
+        color: #027bb3;
+      }
+    }
+  }
+}

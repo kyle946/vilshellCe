@@ -1,0 +1,112 @@
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3846687 */
+  src: url('./assets/iconfont/iconfont.woff2') format('woff2'),
+       url('./assets/iconfont/iconfont.woff') format('woff'),
+       url('./assets/iconfont/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'alibabapuhui';
+  src: url('./assets/fonts/AlibabaPuHuiTi-3-45-Light.woff2');
+}
+
+@font-face {
+  font-family: 'zcool2';
+  src: url('./assets/fonts/zcool2.ttf');
+}
+
+@font-face {
+  font-family: 'zcool3';
+  src: url('./assets/fonts/zcool3.ttf');
+}
+
+@font-face {
+  font-family: 'zcool4';
+  src: url('./assets/fonts/zcool4.ttf');
+}
+
+body {
+  overflow: hidden;
+  font-family: "zcool3, alibabapuhui";
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  background-color: #666;
+  background-image: url(./assets/bg1.jpg);
+  /* background-image: linear-gradient(to left bottom,#38a5ff,#e6ffb3); */
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+* {
+  /* font-family: "zcool3" !important; */
+}
+
+textarea,input{
+  font-family: "zcool3" !important;
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Index {
+  width: calc(100vw - 0px);
+  height: calc(100vh - 0px);
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #f1f1f1; */
+  position: relative;
+  overflow: hidden;
+}
+
+.Index 
+.loaddlg{
+  height: 0px;
+  top: 1px;
+  width: 100%;
+  z-index: 11;
+  position: absolute;
+  overflow: hidden;
+}
+
+.WaitConn1{
+  display: -webkit-box;
+ -webkit-box-orient: horizontal;
+ -webkit-box-pack: center;
+ -webkit-box-align: center;
+}
+
+.tablestyle1{
+  border-spacing: 0px 0px;
+  width: 100%;
+}
+
+.tablestyle1 th, .tablestyle1 td{
+  padding: 10px;
+  padding-right: 25px;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  text-align: left;
+  outline: none;
+}
+
+.TerminalDlg{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 11;
+}
+
+.semi-tabs-tab-card{
+  padding: 8px 12px !important;
+  margin-right: 0px !important;
+}

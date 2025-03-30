@@ -1,0 +1,20 @@
+{
+  "name": "ydm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "config": "node-gyp configure --python=\"C:\\Program Files\\Python311\\python.exe\"",
+    "build": "node-gyp -j 8 build --target=v20.10.0 --debug",
+    "rebuild": "node-gyp rebuild --target=v22.3.27 --arch=ia32 --dist-url=https://electronjs.org/headers",
+    "cpdll": "node pack.js cpdll",
+    "test": "node test.js"
+  },
+  "gypfile": true,
+  "author": "kyle946@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^6.1.0"
+  }
+}

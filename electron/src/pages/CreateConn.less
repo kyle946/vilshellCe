@@ -1,0 +1,280 @@
+.CreateConn {
+  
+  @color1: #027bb3;
+  @color2: #000;
+  @color3: #e86b00;
+  @color4: #333;
+  
+  margin: 0px auto;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding-top: calc( (100vh - 400px) / 2 );
+
+  .win {
+    background-color: #fff;
+    margin: 0px auto;
+    z-index: 4;
+    color: #444;
+    border-radius: 4px;
+    user-select: none;
+    width: 800px;
+    height: 450px;
+    position: relative;
+
+    a {
+      text-align: center;
+      color: #aaa;
+      cursor: pointer;
+      user-select: none;
+    }
+    
+    a:hover {
+      color: #ccc;
+    }
+    
+    a i {
+      font-size: 18px;
+    }
+    
+    .closebtn {
+      position: absolute;
+      /* top: -35px; */
+      /* right: calc(50% - 14px); */
+      top: 1px;
+      right: 1px;
+      a {
+        text-align: center;
+        color: #aaa;
+        cursor: pointer;
+        user-select: none;
+        &:hover {
+          color: #ccc;
+        }
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .content {
+      width: calc(100% - 50px);
+      height: calc(100% - 50px);
+      padding: 15px 25px;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        width: 2px;
+        height: 0px;
+        background-color: #f1f1f1;
+      }
+
+      a.aa2{
+        color: @color1;
+        &:hover{
+          color: @color3;
+        }
+      }
+
+      .titlearea {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .title {
+          font-size: 22px;
+          font-weight: bold;
+        }
+        .titlebtnarea {
+          display: flex;
+          flex-direction: row;
+          padding-top: 10px;
+          a{
+            margin-left: 15px;
+          }
+        }
+      }
+      
+      .semi-form-field {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+
+      .createconn {
+        @pixel11: 30px;
+        @pixel12: 5px;
+        @pixel13: 180px;
+        @pixel14: 570px;
+        @pixel16: 150px;
+
+        .comset{
+          min-height: 284px;
+        }
+        .advset{
+          min-height: 284px;
+        }
+
+        .line1{
+          display: flex;
+          flex-direction: row;
+          margin: 10px 0px;
+
+          .label1{
+            width: @pixel13;
+            line-height: @pixel11;
+            padding-right: @pixel12;
+            color: #666;
+          }
+
+          .righttxt1{
+            width: @pixel14;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            .r11{
+              position: relative;
+            }
+            .r12{
+              position: relative;
+              margin-left: 10px;
+              color: #999;
+              line-height: 30px;
+              height: 30px;
+              width: 410px;
+              overflow:hidden;     /*超出的文本隐藏*/
+              text-overflow:ellipsis;     /*溢出用省略号显示*/
+              white-space:nowrap;     /*溢出不换行*/
+            }
+          }
+
+          .righttxt2{
+            width: @pixel16;
+          }
+
+          .selectfile{
+            display: inline-block;
+            border: 1px solid @color3;
+            color: @color3;
+            padding: 3px;
+            border-radius: 6px;
+            margin-left: 20px;
+            &:hover{
+              opacity: .7;
+            }
+          }
+
+          .btn1{
+            border: 1px solid @color1;
+            color: @color1;
+            padding: 10px;
+            border-radius: 6px;
+            width: 100px;
+            display: inline-block;
+            font-weight: 500;
+            &:hover{
+              border: 1px solid @color3;
+              color: @color3;
+            }
+          }
+
+          .btn2{
+            border: 1px solid @color3;
+            color: @color3;
+            padding: 10px;
+            border-radius: 6px;
+            width: 100px;
+            display: inline-block;
+            font-weight: 500;
+            &:hover{
+              opacity: .7;
+            }
+          }
+
+          .mr {
+            margin-right: 10px;
+          }
+        }
+
+        .lh30{
+          line-height: 35px;
+        }
+
+        .h10 {
+          height: 10px;
+        }
+
+        .tips {
+          color: #f00;
+          min-height: 18px;
+          padding: 10px;
+          background-color: #fff2f2;
+          border-radius: 5px;
+        }
+      }
+      
+      .myhosts{
+        overflow-y: scroll;
+        width: calc(100% - 2px);
+        height: 400px;
+        margin: 10px auto;
+        &::-webkit-scrollbar {
+          width: 0px;
+          height: 0px;
+          background-color: #f1f1f1;
+        }
+        .line1{
+          display: flex;
+          padding: 15px 0px;
+          border-bottom: 1px solid #f1f1f1;
+          user-select: none;
+          cursor: pointer;
+          &:hover{
+            background-color: #ecf7ff;
+          }
+          .left{
+            i{
+              font-size: 42px;
+            }
+          }
+          .right{
+            width: calc(100% - 170px);
+            padding-left: 10px;
+            .t1{
+              padding-bottom: 4px;
+              height: 20px;
+              overflow:hidden;     /*超出的文本隐藏*/
+              text-overflow:ellipsis;     /*溢出用省略号显示*/
+              white-space:nowrap;     /*溢出不换行*/
+            }
+            .t2{
+              color: #999;
+              height: 20px;
+              overflow:hidden;     /*超出的文本隐藏*/
+              text-overflow:ellipsis;     /*溢出用省略号显示*/
+              white-space:nowrap;     /*溢出不换行*/
+            }
+          }
+          .right2{
+            a{
+              display: inline-block;
+              margin-top: 7px;
+              padding: 6px;
+              width: 40px;
+              color: @color1;
+              margin-left: 5px;
+              border-radius: 5px;
+              border: 1px solid @color1;
+              &:hover{
+                background-color: #027bb310;
+              }
+            }
+            // display: flex;
+            // flex-direction: column;
+          }
+        }
+      }
+    }
+
+  }
+}
+

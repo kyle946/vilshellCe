@@ -1,0 +1,5 @@
+{
+  "name": "vilshell",
+  "version": "1.0.2",
+  "main": "dist/main.js"
+}

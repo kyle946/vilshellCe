@@ -1,0 +1,59 @@
+
+.ConfirmDialog {
+  position: absolute;
+  margin: 0px auto;
+  width: 100vw;
+  height: calc(100vh - 32px);
+  left: 0px;
+  top: 32px;
+  .bg {
+    position: absolute;
+    opacity: .5;
+    background-color: #000;
+    width: 100vw;
+    height: calc(100vh - 32px);
+    left: 0px;
+    top: 0px;
+    z-index: 88;
+  }
+  .content{
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    z-index: 89;
+    position: relative;
+    width: 480px;
+    margin: 0px auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+    .txt {
+      font-size: 16px;
+    }
+    .btn{
+      display: flex;
+      flex-direction: row;
+    }
+    .btn a{
+      display: block;
+      padding: 5px;
+      border:1px solid #666;
+      min-width: 90px;
+      margin: 0px auto;
+      margin-top: 50px;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #666;
+      user-select: none;
+      cursor: pointer;
+      &:hover {
+        color: #000;
+        border:1px solid #000;
+      }
+    }
+  }
+}

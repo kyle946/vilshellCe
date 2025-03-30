@@ -1,0 +1,196 @@
+.SwitchLang1 {
+  position: absolute;
+  margin: 0px auto;
+  width: 100vw;
+  height: calc(100vh - 32px);
+  left: 0px;
+  top: 32px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.SwitchLang1_bg {
+  user-select: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: calc(100vw - 2px);
+  height: calc(100vh - 2px);
+  z-index: 3;
+  background-color: #000;
+  opacity: .5;
+}
+
+.SwitchLang1_win {
+  position: absolute;
+  width: 680px;
+  height: 370px;
+  background-color: #fff;
+  margin: 0px auto;
+  z-index: 4;
+  left: calc((100vw - 680px) / 2);
+  top: calc((100vh - 370px) / 2);
+  color: #444;
+  border-radius: 8px;
+}
+
+.SwitchLang1_close {
+  position: absolute;
+  /* top: -35px; */
+  /* right: calc(50% - 14px); */
+  top: 1px;
+  right: 1px;
+}
+
+.SwitchLang1_close a {
+  text-align: center;
+  color: #aaa;
+  cursor: pointer;
+  user-select: none;
+}
+
+.SwitchLang1_close a:hover {
+  color: #ccc;
+}
+
+.SwitchLang1_close a i {
+  font-size: 18px;
+}
+
+.SwitchLang1_c .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.SwitchLang1_c {
+  /* background-color: #027bb3; */
+  width: calc(100% - 50px);
+  height: calc(100% - 110px);
+  padding: 20px 25px;
+}
+
+.SwitchLang1_c1::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #f1f1f1;
+}
+
+.SwitchLang1_c .h20 {
+  height: 20px;
+}
+
+.SwitchLang1_c21 {
+  padding: 20px 10px;
+}
+
+.SwitchLang1_g {
+  display: inline-block;
+  padding: 6px;
+  width: 100px;
+}
+
+.SwitchLang1_c .line1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+  position: relative;
+  border-bottom: 1px solid #f1f1f1;
+  min-height: 30px;
+}
+
+.SwitchLang1_c .line1 .label {
+  width: 230px;
+  color: #000;
+
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: start;
+  -webkit-box-align: center;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: start;
+  -moz-box-align: center;
+
+  display: -o-box;
+  -o-box-orient: horizontal;
+  -o-box-pack: start;
+  -o-box-align: center;
+
+  display: -ms-box;
+  -ms-box-orient: horizontal;
+  -ms-box-pack: start;
+  -ms-box-align: center;
+
+  display: box;
+  box-orient: horizontal;
+  box-pack: start;
+  box-align: center;
+}
+
+.SwitchLang1_c .line1 .txt {
+  width: calc(100% - 240px);
+  text-align: right;
+  color: #000;
+  position: relative;
+
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: end;
+  -webkit-box-align: center;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: end;
+  -moz-box-align: center;
+
+  display: -o-box;
+  -o-box-orient: horizontal;
+  -o-box-pack: end;
+  -o-box-align: center;
+
+  display: -ms-box;
+  -ms-box-orient: horizontal;
+  -ms-box-pack: end;
+  -ms-box-align: center;
+
+  display: box;
+  box-orient: horizontal;
+  box-pack: end;
+  box-align: center;
+}
+
+.SwitchLang1_c .line1 .txt input {
+  outline: none;
+  font-size: 14px;
+  padding: 8px;
+  border: 0px;
+  background-color: #f1f1f1;
+  width: calc(100% - 20px);
+  display: flex;
+  border-radius: 2px;
+}
+
+.SwitchLang1_d {
+  display: block;
+  background-color: #027bb3;
+  color: #fff;
+  margin: 0px auto;
+  padding: 12px 0px;
+  text-align: center;
+  border-radius: 6px;
+  user-select: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+.SwitchLang1_d:hover {
+  opacity: .9;
+}
+
+
+.semi-radio {
+  font-size: 13px !important;
+}
