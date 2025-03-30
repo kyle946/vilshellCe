@@ -1,9 +1,14 @@
 # vilshellCe
 
 
-vilshell 服务器管理软件
+[English](./README.md)
 
-Linux服务器管理软件
+[中文](./README_zhCn.md)
+
+
+### vilshell 服务器管理软件
+
+### Linux服务器管理软件
 
 
 
