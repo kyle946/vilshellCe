@@ -36,3 +36,12 @@ Cross-platform support, support Windows 10, Windows 7, Linux, Mac;
 
 
 [License](./License.txt)
+
+
+
+<br />
+
+Email: kyle946@163.com
+WeChat: xianglou
+
+<br />
