@@ -9,9 +9,9 @@
 
 <br />
 
-### vilshell server management software
+### Vilshell Server management
 
-### Linux server management software
+### Linux Server Management
 
 
 <br />
@@ -25,7 +25,7 @@ Beautiful interface and powerful functions;
 
 
 
-Open source code, security guarantee, free and free;
+Open source code, security guarantee, free;
 
 Cross-platform support, support Windows 10, Windows 7, Linux, Mac;
 
